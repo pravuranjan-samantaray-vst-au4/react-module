@@ -7,22 +7,22 @@ class App extends Component {
     this.state = {
       card1:0,
       card2:0,
-      card3:0,
-      card4:-1,
-      card5:-1  
+      card3:1,
+      card4:0,
+      card5:0  
     }
   }
 
   handleCard1 =  () => {
     console.log('card1 clicked');
     
-    if(this.state.card1 === 1) {
+    if(this.state.card1 === 0) {
       this.setState({
-        card1:0
+        card1:1
       })
     }else {
       this.setState({
-        card1:1
+        card1:0
       })
     }
     
@@ -30,13 +30,13 @@ class App extends Component {
   }
   handleCard2 =  () => {
     console.log('card1 clicked')
-    if(this.state.card2 === 1) {
+    if(this.state.card2 === 0) {
       this.setState({
-        card2:0
+        card2:1
       })
     }else {
       this.setState({
-        card2:1
+        card2:0
       })
     }
   }
@@ -48,31 +48,31 @@ class App extends Component {
       })
     }else {
       this.setState({
-        card3:0
+        card3:1
       })
     }
   }
   handleCard4 =  () => {
     console.log('card1 clicked')
-    if(this.state.card4 === -1) {
+    if(this.state.card4 === 0) {
       this.setState({
         card4:1
       })
     }else {
       this.setState({
-        card4:-1
+        card4:0
       })
     }
   }
   handleCard5 =  () => {
     console.log('card1 clicked')
-    if(this.state.card5 === -1) {
+    if(this.state.card5 === 0) {
       this.setState({
         card5:1
       })
     }else {
       this.setState({
-        card5:-1
+        card5:0
       })
     }
   }
