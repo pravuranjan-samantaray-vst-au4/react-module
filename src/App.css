@@ -1,0 +1,70 @@
+.card1 {
+        margin: 16px;
+        text-align: center;
+        background-color: #9900ff;
+        width: 200px;
+        height: 200px;
+        border-style: solid;
+        position: absolute;
+        display: flex;
+       
+}
+
+.card2 {
+        margin-left: 280px;
+    margin-top: 16px;
+    left: 100%;
+    text-align: center;
+    background-color: #9900ff;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    position: absolute;
+    display: flex;
+       
+}
+.card3 {
+        top: 9vw;
+    margin-left: 143px;
+    text-align: center;
+    background-color: #9900ff;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    position: absolute;
+    display: flex;
+       
+}
+.card4 {
+        
+        margin-left: 15px;
+        top: 18vw;
+        /* left: 9%; */
+        text-align: center;
+        background-color: #9900ff;
+        width: 200px;
+        height: 200px;
+        border-style: solid;
+        position: absolute;
+        display: flex;
+}
+.card5 {
+        
+        margin-left: 279px;
+        top: 18vw;
+        /* left: 106%; */
+        text-align: center;
+        background-color: #9900ff;
+        width: 200px;
+        height: 200px;
+        border-style: solid;
+        position: absolute;
+        display: flex;
+}
+
+.container {
+        position: absolute;
+        display: flex;
+        left: 33%;
+        top: 10%;
+      }
